@@ -5,7 +5,7 @@
 #' node is of the type in question. Do note that the types are not mutually
 #' exclusive and that nodes can thus be of multiple types.
 #'
-#' @param mode The way edges should be followed in the case of directed graphs.
+#' @param mode The way edges should be followed in the case of directed graphs: "in", "out" or "all".
 #'
 #' @return A logical vector of the same length as the number of nodes in the
 #' graph.
